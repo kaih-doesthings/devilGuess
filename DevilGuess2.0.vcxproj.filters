@@ -18,63 +18,57 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="playExit.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="banter.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="rules.cpp">
+    <ClCompile Include="gameRules.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="levelOne.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="endGame.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="guessOne.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="guessTwo.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="guessFinal.cpp">
+    <ClCompile Include="goodEnd.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="numGenerator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="gameMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="devilGuess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="takeGuess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="badEnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="credits.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="main.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="playExit.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="banter.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="rules.h">
+    <ClInclude Include="gameRules.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="levelOne.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="endGame.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="guessOne.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="guessTwo.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="guessFinal.h">
+    <ClInclude Include="gameEnd.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="numGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gameMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="devilGuess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="takeGuess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="credits.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

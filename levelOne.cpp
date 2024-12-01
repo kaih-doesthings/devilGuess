@@ -1,20 +1,25 @@
 #include "levelOne.h"
-#include "levelOne.h"
 #include <iostream>
-#include <random>
 
 
 void levelOne()
 {
-	std::cout << "\n(GAME START)" << std::endl; //put this somewhere else
-	int deckNum;
-	deckNum = numGenerator();																//This function will generate a randome number between 1 and 10.
+	//dialogue (will eventually be a text file)
+	std::cout << "\n(GAME START)" << std::endl;
 
 	std::cout << "*The Devil shuffles the deck and picks a card*\n"
-		<< "MMM, *devious laughter* let's hear your pick. What's the number? \n";																
+		<< "MMM, *devious laughter* let's hear your pick. What's the number? \n";
 
-	guessOne(deckNum);
+	bool gameWon = true;
 
-	// This function will give the player a win or lose
-	//finalGuess();
+	//send value from takeGuess() that we can use to start the endGame function.
+	if (takeGuess() == gameWon)
+	{
+		goodEnd(); 
+	}
+	else
+	{
+		badEnd();
+	}
+	 
 }

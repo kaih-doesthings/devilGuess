@@ -1,21 +1,28 @@
-#include "main.h"
-#include <iostream>
-#include <string>
-
-
+/*DevilGuess Version 3.0 (Nov.28th, 2024)
+* 
+* > Cleaning up things and adding while, do-while, and switch loops.
+* > Only repeatable / major functions will be in external files.
+* > The "gameMenu" function eliminates banter, but essentially does the same thing.
+* > The "devilGuess" function holds the actual game so we can return to the start 
+* menu at the end of the game.
+* > We are adding an actual story this time.
+* > Added restart loop to game.
+* 
+* > Note: learn to make directories / subdirectories to elimnate transitive headers.
+*/
+#include "devilGuess.h"
 
 int main()
 {
 	
-	std::string reply = playExit();     // This function allows player to start or leave the game by forfeit. get value from function
-	banter(reply);						// This function heckles the player based on their answer and repeats the question if the answer is undesirable.
-										// Note: Game stops after the second undesireable reply. Want continual loop.
+	bool doRestart = true;
+	do
+	{
+		gameMenu();				//uses switch statements to play or exit the game 
+		devilGuess();			//the actual game is here  
+			
+	}while(doRestart == 1 );	//back to main menu at the end of the game.
 	
-	// This function contains code to actually play the game. This may be included in rules as a function call path
-	//levelOne();
 	
-	// This function choses a path if player wins or loses game.
-	//winLose();
-
 	return 0;
 }

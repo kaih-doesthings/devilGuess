@@ -127,28 +127,26 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="banter.cpp" />
-    <ClCompile Include="endGame.cpp" />
-    <ClCompile Include="guessFinal.cpp" />
-    <ClCompile Include="guessOne.cpp" />
-    <ClCompile Include="guessTwo.cpp" />
+    <ClCompile Include="badEnd.cpp" />
+    <ClCompile Include="credits.cpp" />
+    <ClCompile Include="devilGuess.cpp" />
+    <ClCompile Include="goodEnd.cpp" />
     <ClCompile Include="levelOne.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="gameMenu.cpp" />
     <ClCompile Include="numGenerator.cpp" />
-    <ClCompile Include="playExit.cpp" />
-    <ClCompile Include="rules.cpp" />
+    <ClCompile Include="gameRules.cpp" />
+    <ClCompile Include="takeGuess.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="banter.h" />
-    <ClInclude Include="endGame.h" />
-    <ClInclude Include="guessFinal.h" />
-    <ClInclude Include="guessOne.h" />
-    <ClInclude Include="guessTwo.h" />
+    <ClInclude Include="credits.h" />
+    <ClInclude Include="devilGuess.h" />
+    <ClInclude Include="gameEnd.h" />
+    <ClInclude Include="gameMenu.h" />
     <ClInclude Include="levelOne.h" />
-    <ClInclude Include="main.h" />
     <ClInclude Include="numGenerator.h" />
-    <ClInclude Include="playExit.h" />
-    <ClInclude Include="rules.h" />
+    <ClInclude Include="gameRules.h" />
+    <ClInclude Include="takeGuess.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
