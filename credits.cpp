@@ -3,5 +3,8 @@
 
 void credits()
 {
-	std::cout << "these are the credits \n" << std::endl;
+	std::cout << "\n---------------------\n\n\n"
+		<< "Game created by KaiH-DoesThings"
+		<< "\n---------------------\n\n"
+		<< std::endl;
 }

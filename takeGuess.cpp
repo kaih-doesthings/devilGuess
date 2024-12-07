@@ -24,21 +24,26 @@ bool takeGuess()
 
 			if (getGuess == crrctNum)   
 			{
-				std::cout << "You win! \n";
+				std::cout << "Mr.Lucifer:\n"
+						  << "Seems the Big Man upstairs is in your corner. "
+						  << "Fantastic guess <player name and gender>!\n";
 				return didWin = true;
 			}
 			else if (getGuess < crrctNum && tries < maxTries) 
 			{
-				std::cout << "Nice try, but you're too low...guess again! \n";
+				std::cout << "Mr.Lucifer:\n"
+						  << "Nice try, but you're too low...GUESS AGAIN! \n";
 			}
 
 			else if (getGuess > crrctNum && tries < maxTries) 
 			{
-				std::cout << "Ooo..too high. Try again! \n";
+				std::cout << "Mr.Lucifer:\n"
+						  << "Ooo..too high. Try again! \n";
 			}
 			else if(tries == maxTries) 
 			{
-				std::cout << "Looks like you're out of chances... \n";
+				std::cout << "Mr.Lucifer:\n"
+					<< "Looks like you're out of chances... \n";
 				return didWin = false;
 			}
 	} while (tries < maxTries);  

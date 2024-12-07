@@ -1,5 +1,7 @@
-//#include "levelOne.h"
-//#include "devilGuess.h"
+/* Known Issue:
+* > Code breaks in the confirmation screen when a non-numerical value (string) 
+* is entered by the player.
+*/
 #include "gameMenu.h"
 #include <iostream>
 #include <string>

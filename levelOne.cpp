@@ -5,10 +5,12 @@
 void levelOne()
 {
 	//dialogue (will eventually be a text file)
-	std::cout << "\n(GAME START)" << std::endl;
-
-	std::cout << "*The Devil shuffles the deck and picks a card*\n"
-		<< "MMM, *devious laughter* let's hear your pick. What's the number? \n";
+	std::cout << "\n------------------------\n"
+			  << "Narrator:" 
+			  << "The Devil shuffles the deck and picks a single card"
+			  << "\n------------------------\n"
+			  << "Mr.Lucifer:" 
+			  << "'MMM, *devious laughter* let's hear your pick. What's the number?' \n";
 
 	bool gameWon = true;
 
