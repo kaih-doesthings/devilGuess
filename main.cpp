@@ -18,12 +18,14 @@ int main()
 	bool doRestart = true;
 	do
 	{
-	
-		gameMenu();				//uses switch statements to play or exit the game 
-		devilGuess();			//the actual game is here  
+		//uses switch statements to play or exit the game 
+		gameMenu();	
+
+		//the actual game is here  
+		devilGuess();			
 			
-	}while(doRestart == 1 );	//back to main menu at the end of the game.
-	
+	}while(doRestart == 1 );	
+	//back to main menu at the end of the game.
 	
 	return 0;
 }

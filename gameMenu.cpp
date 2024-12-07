@@ -18,18 +18,18 @@ void confirmExit()
 	//player can go back if they didn't mean to leave.
 	switch (exitYes)
 	{
-	case 1:
-		exit(1);
-	default:
-		if (exitYes == 2)
-		{
-			break;
-		}
-		else
-		{
-			std::cout << "Please select and option. \n";
-			confirmExit();
-		}
+		case 1:
+			exit(1);
+		default:
+			if (exitYes == 2)
+			{
+				break;
+			}
+			else
+			{
+				std::cout << "Please select and option. \n";
+				confirmExit();
+			}
 	}
 }
 
